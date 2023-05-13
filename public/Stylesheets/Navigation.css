@@ -2,5 +2,28 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
+    flex-direction: row;
+    height: 8vh;
+    background-color: orange;
+    color:white;
+}
+.name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6vh;
+    font-weight: bold;
+    text-shadow: 1.5px 1px 5px yellow;
+    
+}
+.navigation div a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5vh;
+    font-weight: bold;
+    color:white;
+    border-bottom: none;
+    text-shadow: 1.5px 1px 5px yellow;
+    text-decoration: none;
+}
+.navigation div a:hover{
+    /* background-color: rgb(255, 68, 0); */
+    text-shadow: 1.5px 1px 5px red;
 }

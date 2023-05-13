@@ -3,14 +3,22 @@ const passengerList = document.querySelector("#passengerList");
 const DAvailable = document.querySelector("#DAvailable");
 const DNotAvailable = document.querySelector("#DNotAvailable");
 
-// const PASSENGER_URL = "http://localhost:3000/driver/passengerList";
-// const DAvailable_URL = "http://localhost:3000/driver/DAvailable";
-// const DNotAvailable_URL = "http://localhost:3000/driver/DNotAvailable";
-const PASSENGER_URL =
-  "https://quickrickshaws.onrender.com/driver/passengerList";
-const DAvailable_URL = "https://quickrickshaws.onrender.com/driver/DAvailable";
-const DNotAvailable_URL =
-  "https://quickrickshaws.onrender.com/driver/DNotAvailable";
+const PASSENGER_URL = "http://localhost:3000/driver/passengerList";
+const DAvailable_URL = "http://localhost:3000/driver/DAvailable";
+const DNotAvailable_URL = "http://localhost:3000/driver/DNotAvailable";
+const DASHBOARD_URL = "http://localhost:3000/driver/dDashBoard ";
+// const PASSENGER_URL =
+//   "https://quickrickshaws.onrender.com/driver/passengerList";
+// const DAvailable_URL = "https://quickrickshaws.onrender.com/driver/DAvailable";
+// const DNotAvailable_URL =
+//   "https://quickrickshaws.onrender.com/driver/DNotAvailable";
+
+// const link=document.getElementById("link");
+// link.addEventListener("click",(e)=>{
+//   e.preventDefault();
+//   alert("hi");
+//   window.location.href = DASHBOARD_URL;
+// });
 
 passengerList.addEventListener("click", () => {
   window.open(PASSENGER_URL);

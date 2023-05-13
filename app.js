@@ -7,11 +7,12 @@ const cookieParser = require("cookie-parser");
 const DriverRoute = require("./Driverdata");
 const { v4: uuidv4 } = require("uuid");
 // const Driver = require("./model/Driver");
-require("dotenv").config();
-// const CONNECTION_URL =
-//   "mongodb+srv://gecbhavce2021:HmPVZ4RGB3YLVFLQ@rickshawdb.j9axcwl.mongodb.net/rickshawDB";
+// require("dotenv").config();
+// .connect(process.env.CONNECTION_URL)
+const CONNECTION_URL =
+  "mongodb+srv://gecbhavce2021:HmPVZ4RGB3YLVFLQ@rickshawdb.j9axcwl.mongodb.net/rickshawDB";
 mongoose
-  .connect(process.env.CONNECTION_URL)
+  .connect(CONNECTION_URL)   
   .then((resp) => console.log("connectin successful"))
   .catch((err) => console.log("got error", err));
 
