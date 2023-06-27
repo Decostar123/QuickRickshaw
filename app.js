@@ -19,9 +19,14 @@ mongoose
 // const accountSid = "AC6311c17ca87cf589def81f6e2d98b7c5";
 // const authToken = "6bd0eed1de20b59985153db3b7ea3b20";
 // const verifySid = "VA55caca07005c95da0aa873a516248d6d";
-const accountSid = "AC59d515a7e7fea2d985bb8746a5ce4aef";
-const authToken = "4ff044f47252a0b90cfc6c1125e2a01b";
-const verifySid = "VA08e702f44dd56c82a4af26cea8f85e73";
+//  SHIVANG 
+// const accountSid = "AC59d515a7e7fea2d985bb8746a5ce4aef";
+// const authToken = "4ff044f47252a0b90cfc6c1125e2a01b";
+// const verifySid = "VA08e702f44dd56c82a4af26cea8f85e73";
+
+const accountSid = "AC6311c17ca87cf589def81f6e2d98b7c5";
+const authToken = "3a558defd7ff327369e07edda4350e7a";
+const verifySid = "VA55caca07005c95da0aa873a516248d6d";
 const client = require("twilio")(accountSid, authToken);
 
 // const accountSid = "AC6311c17ca87cf589def81f6e2d98b7c5";
